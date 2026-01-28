@@ -1,0 +1,338 @@
+{
+  "asOf": "2026-01-15",
+  "portfolio": {
+    "deals": 3,
+    "tranches": 3,
+    "flagged": 3,
+    "red": 3,
+    "yellow": 0
+  },
+  "deals": [
+    {
+      "dealId": "Toyota Auto Receivables 2024-D Owner Trust",
+      "cusip": "N/A",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro": {
+        "theme": "Auto delinquencies",
+        "percentile": 1.0,
+        "series": "Auto ABS delinquencies"
+      },
+      "triggers": [
+        {
+          "triggerId": "DQ_TRIGGER",
+          "metric": "60+ DQ %",
+          "direction": "<=",
+          "threshold": 0.008,
+          "current": 0.3,
+          "cushion": -36.5,
+          "change3m": 0.0,
+          "vol6m": 0.0,
+          "score": 1.0,
+          "scoreBreakdown": {
+            "cushion": 1.0,
+            "trend3m": 0.0,
+            "vol6m": 0.0,
+            "macro": 1.0
+          }
+        }
+      ],
+      "collateralMetrics": [
+        {
+          "name": "Total DQ",
+          "cur": 148337.2036,
+          "chg": 11585.52780000001
+        },
+        {
+          "name": "61+ DQ",
+          "cur": 0.3,
+          "chg": 0.0
+        },
+        {
+          "name": "Cum Loss",
+          "cur": 0.002188,
+          "chg": 0.0006273999999999997
+        }
+      ],
+      "cushionSeries": [
+        {
+          "m": "Jul",
+          "dq": -36.5
+        },
+        {
+          "m": "Aug",
+          "dq": -36.5
+        },
+        {
+          "m": "Sep",
+          "dq": -36.5
+        },
+        {
+          "m": "Oct",
+          "dq": -36.5
+        },
+        {
+          "m": "Nov",
+          "dq": -36.5
+        },
+        {
+          "m": "Dec",
+          "dq": -36.5
+        }
+      ],
+      "dqSeries": [
+        {
+          "m": "Jul",
+          "dq60": 0.3
+        },
+        {
+          "m": "Aug",
+          "dq60": 0.3
+        },
+        {
+          "m": "Sep",
+          "dq60": 0.3
+        },
+        {
+          "m": "Oct",
+          "dq60": 0.3
+        },
+        {
+          "m": "Nov",
+          "dq60": 0.3
+        },
+        {
+          "m": "Dec",
+          "dq60": 0.3
+        }
+      ],
+      "explanation": "Derived from SEC 10-D Exhibit 99.1 tables. Scores are rule-based: 60% cushion distance, 20% 3m deterioration, 10% volatility, 10% macro percentile. Breached triggers score 100."
+    },
+    {
+      "dealId": "Toyota Auto Receivables 2022-D Owner Trust",
+      "cusip": "N/A",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro": {
+        "theme": "Auto delinquencies",
+        "percentile": 0.972972972972973,
+        "series": "Auto ABS delinquencies"
+      },
+      "triggers": [
+        {
+          "triggerId": "DQ_TRIGGER",
+          "metric": "60+ DQ %",
+          "direction": "<=",
+          "threshold": 0.008,
+          "current": 0.3,
+          "cushion": -36.5,
+          "change3m": 0.0,
+          "vol6m": 0.0,
+          "score": 1.0,
+          "scoreBreakdown": {
+            "cushion": 1.0,
+            "trend3m": 0.0,
+            "vol6m": 0.0,
+            "macro": 0.945945945945946
+          }
+        }
+      ],
+      "collateralMetrics": [
+        {
+          "name": "Total DQ",
+          "cur": 95783.83789999998,
+          "chg": 41.775399999984074
+        },
+        {
+          "name": "61+ DQ",
+          "cur": 0.3,
+          "chg": 0.0
+        },
+        {
+          "name": "Cum Loss",
+          "cur": 0.0050447,
+          "chg": 6.019999999999984e-05
+        }
+      ],
+      "cushionSeries": [
+        {
+          "m": "Jul",
+          "dq": -36.5
+        },
+        {
+          "m": "Aug",
+          "dq": -36.5
+        },
+        {
+          "m": "Sep",
+          "dq": -36.5
+        },
+        {
+          "m": "Oct",
+          "dq": -36.5
+        },
+        {
+          "m": "Nov",
+          "dq": -36.5
+        },
+        {
+          "m": "Dec",
+          "dq": -36.5
+        }
+      ],
+      "dqSeries": [
+        {
+          "m": "Jul",
+          "dq60": 0.3
+        },
+        {
+          "m": "Aug",
+          "dq60": 0.3
+        },
+        {
+          "m": "Sep",
+          "dq60": 0.3
+        },
+        {
+          "m": "Oct",
+          "dq60": 0.3
+        },
+        {
+          "m": "Nov",
+          "dq60": 0.3
+        },
+        {
+          "m": "Dec",
+          "dq60": 0.3
+        }
+      ],
+      "explanation": "Derived from SEC 10-D Exhibit 99.1 tables. Scores are rule-based: 60% cushion distance, 20% 3m deterioration, 10% volatility, 10% macro percentile. Breached triggers score 100."
+    },
+    {
+      "dealId": "Drive Auto Receivables Trust 2021-3",
+      "cusip": "N/A",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro": {
+        "theme": "Auto delinquencies",
+        "percentile": 1.0,
+        "series": "Auto ABS delinquencies"
+      },
+      "triggers": [
+        {
+          "triggerId": "DQ_TRIGGER",
+          "metric": "60+ DQ %",
+          "direction": "<=",
+          "threshold": 0.008,
+          "current": 0.2047,
+          "cushion": -24.5875,
+          "change3m": 0.010099999999999998,
+          "vol6m": 0.0024248711305964294,
+          "score": 1.0,
+          "scoreBreakdown": {
+            "cushion": 1.0,
+            "trend3m": 0.0,
+            "vol6m": 0.0,
+            "macro": 1.0
+          }
+        }
+      ],
+      "collateralMetrics": [
+        {
+          "name": "Total DQ",
+          "cur": 0.0,
+          "chg": 0.0
+        },
+        {
+          "name": "61+ DQ",
+          "cur": 0.2047,
+          "chg": 0.010099999999999998
+        },
+        {
+          "name": "Cum Loss",
+          "cur": 2211463.1935,
+          "chg": 52272.95160000026
+        }
+      ],
+      "cushionSeries": [
+        {
+          "m": "Aug",
+          "dq": -22.55
+        },
+        {
+          "m": "Sep",
+          "dq": -22.662499999999998
+        },
+        {
+          "m": "Oct",
+          "dq": -23.325
+        },
+        {
+          "m": "Nov",
+          "dq": -23.799999999999997
+        },
+        {
+          "m": "Dec",
+          "dq": -24.5125
+        },
+        {
+          "m": "Jan",
+          "dq": -24.5875
+        }
+      ],
+      "dqSeries": [
+        {
+          "m": "Aug",
+          "dq60": 0.1884
+        },
+        {
+          "m": "Sep",
+          "dq60": 0.1893
+        },
+        {
+          "m": "Oct",
+          "dq60": 0.1946
+        },
+        {
+          "m": "Nov",
+          "dq60": 0.1984
+        },
+        {
+          "m": "Dec",
+          "dq60": 0.2041
+        },
+        {
+          "m": "Jan",
+          "dq60": 0.2047
+        }
+      ],
+      "explanation": "Derived from SEC 10-D Exhibit 99.1 tables. Scores are rule-based: 60% cushion distance, 20% 3m deterioration, 10% volatility, 10% macro percentile. Breached triggers score 100."
+    }
+  ],
+  "alerts": [
+    {
+      "ts": "2025-12-22 09:00",
+      "dealId": "Toyota Auto Receivables 2024-D Owner Trust",
+      "severity": "red",
+      "title": "60+ DQ % nearing trigger",
+      "detail": "Cushion -3650.00%; risk score 100%."
+    },
+    {
+      "ts": "2025-12-22 09:00",
+      "dealId": "Toyota Auto Receivables 2022-D Owner Trust",
+      "severity": "red",
+      "title": "60+ DQ % nearing trigger",
+      "detail": "Cushion -3650.00%; risk score 100%."
+    },
+    {
+      "ts": "2026-01-15 09:00",
+      "dealId": "Drive Auto Receivables Trust 2021-3",
+      "severity": "red",
+      "title": "60+ DQ % nearing trigger",
+      "detail": "Cushion -2458.75%; risk score 100%."
+    }
+  ]
+}
